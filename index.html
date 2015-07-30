@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>digits test</title>
+	<meta name="generator" content="BBEdit 10.1" />
+	<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/tumbler.js"></script>	
+	
+	<script type="text/javascript">
+		
+		$(document).ready( function() {
+			
+			var tumbler = new Tumbler( $('#tumbler') );
+			
+			tumbler.setValue( statValue( $('.stats_container li').first() ));
+			
+			$('.stats_container li').click( function() {
+				var nextItem = $(this).next();
+				if( nextItem.length == 0 ) {
+					nextItem = $(this).parent().children().first();
+				}
+				var value = statValue( $(nextItem) );
+				tumbler.setValue( value );
+				$(this).parent().css( 'left', -( nextItem.position().left ) );
+			});
+			
+		});
+		
+		function statValue( item ) {
+			var value = parseInt( $(item).find( 'span' ).first().text() );
+			if( isNaN( value ) ) {
+				value = 0;
+			}
+			return value;
+		}
+		
+	</script>
+</head>
+<body>
+
+	<ul class="digits" id="tumbler">
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+	
+	<div class="stats_container">
+		<ul id="">
+			<li><div>Click for next stat<span>000</span></div></li>
+			<li><div>Widgets Wonked<span>94</span></div></li>
+			<li><div>Junks Punched<span>273</span></div></li>
+			<li><div>Donuts Eaten<span>954</span></div></li>
+			<li><div>Models Made<span>439</span></div></li>
+			<li><div>Babies Burped<span>122</span></div></li>
+			<li><div>Zombies Fragged<span>752</span></div></li>
+			<li><div>Cheerios Stacked<span>238</span></div></li>									
+		</ul>
+	</div>
+
+</body>
+</html>

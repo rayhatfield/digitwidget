@@ -1,0 +1,307 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 115, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 9, ../sass/screen.scss */
+body {
+  background: black;
+  font-family: helvetica, arial, sans-serif;
+  color: white;
+  padding: 4em;
+}
+
+/* line 19, ../sass/screen.scss */
+.digits li {
+  background: url("../images/digits.png") no-repeat black;
+  height: 106px;
+  width: 72px;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  -moz-transition-property: background-position;
+  -webkit-transition-property: background-position;
+  -o-transition-property: background-position;
+  transition-property: background-position;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -moz-transition-property: background-position;
+  -webkit-transition-property: background-position;
+  -o-transition-property: background-position;
+  transition-property: background-position;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -moz-transition-property: background-position;
+  -webkit-transition-property: background-position;
+  -o-transition-property: background-position;
+  transition-property: background-position;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -moz-transition-property: background-position;
+  -webkit-transition-property: background-position;
+  -o-transition-property: background-position;
+  transition-property: background-position;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -moz-transition-property: background-position;
+  -webkit-transition-property: background-position;
+  -o-transition-property: background-position;
+  transition-property: background-position;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -moz-transition-property: background-position;
+  -webkit-transition-property: background-position;
+  -o-transition-property: background-position;
+  transition-property: background-position;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -moz-transition-property: background-position;
+  -webkit-transition-property: background-position;
+  -o-transition-property: background-position;
+  transition-property: background-position;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -moz-transition-property: background-position;
+  -webkit-transition-property: background-position;
+  -o-transition-property: background-position;
+  transition-property: background-position;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -moz-transition-property: background-position;
+  -webkit-transition-property: background-position;
+  -o-transition-property: background-position;
+  transition-property: background-position;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -moz-transition-property: background-position;
+  -webkit-transition-property: background-position;
+  -o-transition-property: background-position;
+  transition-property: background-position;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -moz-transition-property: background-position;
+  -webkit-transition-property: background-position;
+  -o-transition-property: background-position;
+  transition-property: background-position;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+/* line 31, ../sass/screen.scss */
+.digits li.digit-0 {
+  background-position: 0px 0px;
+}
+/* line 31, ../sass/screen.scss */
+.digits li.digit-1 {
+  background-position: 0px -106px;
+}
+/* line 31, ../sass/screen.scss */
+.digits li.digit-2 {
+  background-position: 0px -212px;
+}
+/* line 31, ../sass/screen.scss */
+.digits li.digit-3 {
+  background-position: 0px -318px;
+}
+/* line 31, ../sass/screen.scss */
+.digits li.digit-4 {
+  background-position: 0px -424px;
+}
+/* line 31, ../sass/screen.scss */
+.digits li.digit-5 {
+  background-position: 0px -530px;
+}
+/* line 31, ../sass/screen.scss */
+.digits li.digit-6 {
+  background-position: 0px -636px;
+}
+/* line 31, ../sass/screen.scss */
+.digits li.digit-7 {
+  background-position: 0px -742px;
+}
+/* line 31, ../sass/screen.scss */
+.digits li.digit-8 {
+  background-position: 0px -848px;
+}
+/* line 31, ../sass/screen.scss */
+.digits li.digit-9 {
+  background-position: 0px -954px;
+}
+
+/* line 39, ../sass/screen.scss */
+.stats_container {
+  position: relative;
+  width: 246px;
+  height: 3em;
+  overflow: hidden;
+  white-space: nowrap;
+}
+/* line 41, ../sass/screen.scss */
+.stats_container ul {
+  position: absolute;
+  -moz-transition-property: left;
+  -webkit-transition-property: left;
+  -o-transition-property: left;
+  transition-property: left;
+  -moz-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+/* line 49, ../sass/screen.scss */
+.stats_container li {
+  display: inline-block;
+  text-transform: uppercase;
+  width: 246px;
+  background: red;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 55, ../sass/screen.scss */
+.stats_container li div {
+  padding: 9px;
+}
+/* line 58, ../sass/screen.scss */
+.stats_container li span {
+  margin-left: 1em;
+  font-weight: bold;
+  display: none;
+}

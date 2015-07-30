@@ -1,0 +1,65 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+body {
+	background:black;
+	font-family:helvetica, arial, sans-serif;
+	color:white;
+	padding:4em;
+}
+
+$digitWidth:82px;
+$numDigits:3;
+
+.digits li {
+	background: url('../images/digits.png') no-repeat black;
+	height:106px;
+	width:72px;
+	display:inline-block;
+	margin:0px;
+	padding:0px;
+	@include transition(background-position, 1s, ease-in-out);
+	
+	$i:0;
+	$digitHeight:106px;
+	@while $i < 10 {
+		&.digit-#{$i} { background-position: 0px (-($i * $digitHeight)); }
+		$i: $i + 1;
+		@include transition(background-position, 1s, ease-in-out);
+	}
+	
+}
+
+
+.stats_container {
+	position:relative;
+	ul {
+		position:absolute;
+		@include transition(left, .5s, ease-in-out);
+	}
+	width:$digitWidth * $numDigits;
+	height:3em;
+	overflow:hidden;
+	white-space:nowrap;
+	li {
+		display:inline-block;
+		text-transform:uppercase;
+		width:$digitWidth * 3;
+		background:red;
+		@include border-radius( 5px );
+		div {
+			padding:9px;
+		}
+		span {
+			margin-left:1em;
+			font-weight:bold;
+			
+			display:none;
+		}
+	}
+}
